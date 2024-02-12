@@ -66,7 +66,7 @@ def isFull(board, symbol_1, symbol_2):
         pretty = printPretty(board)
 
         if count == 9:
-            print("Игра закончена!")
+            print("Игра закончена!!")
             if winner == True:
                 print("Ничья ")
         winner = isWinner(board, symbol_1, symbol_2, count)
